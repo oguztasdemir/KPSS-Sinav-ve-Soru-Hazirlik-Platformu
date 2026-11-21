@@ -246,6 +246,7 @@ export class QuizController {
           </button>
         </div>
       </div>
+    `;
     this.bindEvents(q, correctAnswer, subject, topic, year);
     this.renderMath();
   }
