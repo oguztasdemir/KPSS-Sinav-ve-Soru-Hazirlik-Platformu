@@ -1,1 +1,7 @@
 .vercel
+
+# Python & Pytest
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
