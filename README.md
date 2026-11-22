@@ -1,3 +1,5 @@
+[![CI Tests](https://github.com/oguztasdemir/KPSS-Sinav-ve-Soru-Hazirlik-Platformu/actions/workflows/ci.yml/badge.svg)](https://github.com/oguztasdemir/KPSS-Sinav-ve-Soru-Hazirlik-Platformu/actions/workflows/ci.yml)
+
 
 # 🎯 KPSS Lisans GY-GK Hazırlık & Çıkmış Sorular Platformu
 
@@ -151,3 +153,15 @@ Bu proje eğitim ve KPSS sınavına hazırlık amaçlı geliştirilmiştir. Tüm
 > - Proje içerisinde yer alan hiçbir içerik, soru veya materyal **kesinlikle ticari bir amaç taşımamakta**, herhangi bir gelir, ücret veya ticari kazanç unsuru barındırmamaktadır.
 > - Sınav formatları, soru kökleri ve ilgili tüm fikri haklar **ÖSYM (Ölçme, Seçme ve Yerleştirme Merkezi)** ve ilgili resmi kurumlara aittir. 
 > - Bu yazılım projesi, yalnızca adayların kişisel çalışma performanslarını ölçme, zayıf oldukları konuları analiz etme ve bireysel eğitim süreçlerini kolaylaştırmaya yönelik açık kaynaklı bir araçtır.
+
+
+---
+
+## Yerel Testler
+
+Projenin temel çalışma ve sözdizimi doğrulama testlerini çalıştırmak için:
+
+```bash
+pip install pytest
+pytest tests -v
+```
